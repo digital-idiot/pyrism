@@ -7,8 +7,7 @@ from collections import namedtuple
 
 import numpy as np
 from scipy.integrate import (quad, dblquad)
-from scipy.misc import factorial
-from scipy.special import expi
+from scipy.special import factorial, expi
 
 from .library import get_data_one, get_data_two
 from ..core import (Kernel, Scattering, ReflectanceResult, EmissivityResult, SailResult, cot, rad, dB, BRDF, BRF)
